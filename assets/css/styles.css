@@ -12,12 +12,10 @@
 }
 
 .light-theme {
-  --page-background: linear-gradient(
-    180deg,
-    #ffffff 0%,
-    #ffffff 65%,
-    rgba(255, 255, 255, 0.75) 100%
-  );
+  --page-background: linear-gradient(180deg,
+      #ffffff 0%,
+      #ffffff 65%,
+      rgba(255, 255, 255, 0.75) 100%);
   --header-background-color: #e3e3e3;
   --highlight-color: #000000;
   --featured-font-family: "Archivo", sans-serif;
@@ -30,12 +28,10 @@
 }
 
 .dark-theme {
-  --page-background: linear-gradient(
-    180deg,
-    #050000 0%,
-    #130404 65%,
-    rgba(19, 1, 1, 0.75) 100%
-  );
+  --page-background: linear-gradient(180deg,
+      #050000 0%,
+      #130404 65%,
+      rgba(19, 1, 1, 0.75) 100%);
   --header-background-color: #220f0f;
   --highlight-color: #ffffff;
   --featured-font-family: "Rubik Glitch", sans-serif;
@@ -267,16 +263,14 @@ section {
   bottom: 24px;
   left: 24px;
   border: 2px solid;
-  border-image: linear-gradient(
-    var(--primary-color),
-    var(--primary-color-contrast)
-  );
+  border-image: linear-gradient(var(--primary-color),
+      var(--primary-color-contrast));
   border-image-slice: 10;
 }
 
 /*** SECTION 03 - STRANGER THINGS GALLERY ***/
 
-#section-stranger-things-gallery  {
+#section-stranger-things-gallery {
   width: 100%;
   background: var(--background-lamp-image) 120% / 50% no-repeat;
   justify-content: center;
